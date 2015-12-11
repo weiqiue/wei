@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>实时推荐</title>
+	<link rel="stylesheet" href="../public/css/common.css">
+	<link rel="stylesheet" href="../public/css/weather-information.css">
+</head>
+<body style="background: url('../public/images/bg-duoyun.jpg') no-repeat;">
+	<div id="header">
+		<div class="header-nav">
+			<span id="nav1" class="nav-1 active"></span>
+			<span id="nav2" class="nav-2"></span>
+			<span id="nav3" class="nav-3"></span>
+			<span id="nav4" class="nav-4"></span>
+			<span id="nav5" class="nav-5"></span>
+		</div>
+	</div>
+	<div class="infor-container">
+		<div class="marquee-border">
+			<div class="marquee">
+			一周,15天查询,气象云图,空气质量,天气实况,温度,降水,风力,气压,紫外线等准确发布,...</div>
+		</div>
+		
+		<div class="map">
+			<img src="../public/images/gx-map.png">
+			<div class="map-content">
+				<span id="bs" class="bs"></span>
+				<span id="hc" class="hc"></span> 
+				<span id='nn' class="nn"></span>
+				<span id="cz" class="cz"></span>
+				<span id="fcg" class="fcg"></span>
+				<span id="qz" class="qz"></span>
+				<span id="bh" class="bh"></span>
+				<span id="yl" class="yl"></span>
+				<span id="gg" class="gg"></span>
+				<span id='lb' class="lb"></span>
+				<span id="lz" class="lz"></span>
+				<span id="gl" class="gl"></span>
+				<span id="wz" class="wz"></span>
+				<span id="hz" class="hz"></span>
+			</div>
+			<div class="con-information-1">
+			<a href="#" onfocus="addFocus('#bs')" onblur="removeFocus('#bs')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#hc')" onblur="removeFocus('#hc')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#lz')" onblur="removeFocus('#lz')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#gl')" onblur="removeFocus('#gl')">
+				<img src="../public/images/dot.gif" /></a>
+			</div>
+			<div class="con-information-2">
+			<a href="#" onfocus="addFocus('#hz')" onblur="removeFocus('#hz')">
+				<img src="../public/images/dot.gif" /></a>
+			</div>
+			<div class="con-information-3">
+			<a href="#" onfocus="addFocus('#cz')" onblur="removeFocus('#cz')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#nn')" onblur="removeFocus('#nn')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#lb')" onblur="removeFocus('#lb')">
+				<img src="../public/images/dot.gif" /></a>
+			</div>
+			<div class="con-information-4">
+			<a href="#" onfocus="addFocus('#fcg')" onblur="removeFocus('#fcg')">
+				<img src="../public/images/dot.gif" /></a>
+			
+			<a href="#" onfocus="addFocus('#gg')" onblur="removeFocus('#gg')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#wz')" onblur="removeFocus('#wz')">
+				<img src="../public/images/dot.gif" /></a>
+			</div>
+			<div class="con-information-5">	
+			<a href="#" onfocus="addFocus('#yl')" onblur="removeFocus('#yl')">
+				<img src="../public/images/dot.gif" />			</a>
+			<a href="#" onfocus="addFocus('#bh')" onblur="removeFocus('#bh')">
+				<img src="../public/images/dot.gif" /></a>
+			</div>
+			<div class="circul-content">
+				<div class="list1">
+					<div class="rank">
+						<div class="date">今天</div>
+						<div class="day">09/25</div></div>
+					<div class="rank img"><img src="../public/images/sun-cloud.png"style="width:85px;height:68px;"></div>
+					<div class="rank">
+						<div>多云转阵雨</div>
+						<div>20℃/38℃</div></div>			
+				</div>
+				<div class="list2">
+					<div class="rank">
+						<div class="date">今天</div>
+						<div class="day">09/25</div></div>
+					<div class="rank img"><img src="../public/images/sunny.png" style="width:85px;height:68px;"></div>
+					<div class="rank">
+						<div>多云转阵雨</div>
+						<div>20℃/38℃</div></div>			
+				</div>
+				<div class="list3">
+					<div class="rank">
+						<div class="date">今天</div>
+						<div class="day">09/25</div></div>
+					<div class="rank img"><img src="../public/images/zhenyu.png"style="width:85px;height:68px;"></div>
+					<div class="rank">
+						<div>多云转阵雨</div>
+						<div>20℃/38℃</div></div>			
+				</div>
+				<div class="list4">
+					<div class="rank">
+						<div class="date">今天</div>
+						<div class="day">09/25</div></div>
+					<div class="rank img"><img src="../public/images/cloudy-rain.png"style="width:85px;height:68px;"></div>
+					<div class="rank">
+						<div>多云转阵雨</div>
+						<div>20℃/38℃</div></div>			
+				</div>
+				<div class="list5">
+					<div class="rank">
+						<div class="date">今天</div>
+						<div class="day">09/25</div></div>
+					<div class="rank img"><img src="../public/images/yin.png"style="width:85px;height:68px;"></div>
+					<div class="rank">
+						<div>多云转阵雨</div>
+						<div>20℃/38℃</div></div>			
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="footer-menu">
+			<span id="menu1" class="menu-1"></span>
+			<span id="menu2" class="menu-2"></span>
+			<span id="menu3" class="menu-3"></span>
+			<span id="menu4" class="menu-4"></span>
+		</div>
+	</div>
+	<div id="controller">
+		<div class="con-header">
+			<a href="#" onfocus="addFocus('#nav1')" onblur="removeFocus('#nav1')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#nav2')" onblur="removeFocus('#nav2')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#nav3')" onblur="removeFocus('#nav3')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#nav4')" onblur="removeFocus('#nav4')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#nav5')" onblur="removeFocus('#nav5')">
+				<img src="../public/images/dot.gif" /></a>
+		</div>
+		
+		<div class="con-footer">
+			<a href="#" onfocus="addFocus('#menu1')" onblur="removeFocus('#menu1')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#menu2')" onblur="removeFocus('#menu2')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#menu3')" onblur="removeFocus('#menu3')">
+				<img src="../public/images/dot.gif" /></a>
+			<a href="#" onfocus="addFocus('#menu4')" onblur="removeFocus('#menu4')">
+				<img src="../public/images/dot.gif" /></a>
+		</div>
+	</div>
+
+	<script src="../public/js/common.js"></script>
+	<script >
+		// var nn=document.getElementById('nn');
+	 //    nn.className='nn'+' '+'focus';
+	</script>
+</body>
+</html>
